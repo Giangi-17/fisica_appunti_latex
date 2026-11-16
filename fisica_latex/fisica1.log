@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.27)  15 NOV 2026 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.27)  16 NOV 2026 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -807,15 +807,7 @@ Package babel Info: Main language set to 'italian'.
 
 
 {c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/
-texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./fisica1.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
- (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
-(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./fisica1.toc)
 \tf@toc=\write5
 \openout5 = `fisica1.toc'.
 
@@ -834,7 +826,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-<immagini/tolomaico-copernicano.jpg, id=68, 722.7pt x 414.04688pt>
+<immagini/tolomaico-copernicano.jpg, id=22, 722.7pt x 414.04688pt>
 File: immagini/tolomaico-copernicano.jpg Graphic file (type jpg)
 <use immagini/tolomaico-copernicano.jpg>
 Package pdftex.def Info: immagini/tolomaico-copernicano.jpg  used on input line
@@ -855,7 +847,7 @@ l.97
 
 
  <./immagini/tolomaico-copernicano.jpg>]
-<immagini/orologioacqua_galileo.jpg, id=75, 236.885pt x 262.9825pt>
+<immagini/orologioacqua_galileo.jpg, id=31, 236.885pt x 262.9825pt>
 File: immagini/orologioacqua_galileo.jpg Graphic file (type jpg)
 <use immagini/orologioacqua_galileo.jpg>
 Package pdftex.def Info: immagini/orologioacqua_galileo.jpg  used on input line
@@ -886,7 +878,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--118
 
  []
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 119
+.
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 119
+.
 
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
@@ -913,7 +915,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-<immagini/spazio_cartesiano.jpg, id=92, 147.55125pt x 143.03438pt>
+<immagini/spazio_cartesiano.jpg, id=50, 147.55125pt x 143.03438pt>
 File: immagini/spazio_cartesiano.jpg Graphic file (type jpg)
 <use immagini/spazio_cartesiano.jpg>
 Package pdftex.def Info: immagini/spazio_cartesiano.jpg  used on input line 164
@@ -962,19 +964,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-<immagini/grafico_vel_acc_spazio.jpg, id=115, 307.1475pt x 407.27156pt>
+<immagini/grafico_vel_acc_spazio.jpg, id=85, 307.1475pt x 407.27156pt>
 File: immagini/grafico_vel_acc_spazio.jpg Graphic file (type jpg)
 <use immagini/grafico_vel_acc_spazio.jpg>
 Package pdftex.def Info: immagini/grafico_vel_acc_spazio.jpg  used on input lin
-e 248.
+e 256.
 (pdftex.def)             Requested size: 227.62206pt x 301.82367pt.
 
-Overfull \hbox (0.96446pt too wide) in paragraph at lines 252--254
+Overfull \hbox (0.96446pt too wide) in paragraph at lines 260--262
 []\T1/cmr/bx/n/10.95 Esempio. []\T1/cmr/m/it/10.95 Sup-po-nia-mo di ave-re $\OM
 L/cmm/m/it/10.95 t[] \OT1/cmr/m/n/10.95 = 3\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/1
 0.95 4[]$ \T1/cmr/m/it/10.95 e $\OML/cmm/m/it/10.95 V\OT1/cmr/m/n/10.95 (\OML/c
@@ -983,22 +985,58 @@ ui-va-len-ti a $\OT1/cmr/m/n/10.95 27\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 7
 []$\T1/cmr/m/it/10.95 )
  []
 
-[6 <./immagini/grafico_vel_acc_spazio.jpg>] [7] (./fisica1.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+[7 <./immagini/grafico_vel_acc_spazio.jpg>]
+<immagini/motocircolareuni.jpg, id=92, 121.20282pt x 153.57375pt>
+File: immagini/motocircolareuni.jpg Graphic file (type jpg)
+<use immagini/motocircolareuni.jpg>
+Package pdftex.def Info: immagini/motocircolareuni.jpg  used on input line 293.
+
+(pdftex.def)             Requested size: 87.40474pt x 110.75343pt.
+
+Overfull \hbox (2.05464pt too wide) in paragraph at lines 285--299
+[] [] \T1/cmr/m/n/10.95 che
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
+
+ []
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 307.
+
+Missing character: There is no à in font cmr10!
+[8 <./immagini/motocircolareuni.jpg>] [9] (./fisica1.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-Package rerunfilecheck Info: File `fisica1.out' has not changed.
-(rerunfilecheck)             Checksum: D97F3DAC5EB494DBFAC1326FE189E80C;2059.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `fisica1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `fisica1.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  EBE865C83B964C88797D54F8E404535C;2395.
  ) 
 Here is how much of TeX's memory you used:
- 25547 strings out of 467168
- 482193 string characters out of 5413705
- 894284 words of memory out of 5000000
- 54362 multiletter control sequences out of 15000+600000
+ 25564 strings out of 467168
+ 482748 string characters out of 5413705
+ 893938 words of memory out of 5000000
+ 54370 multiletter control sequences out of 15000+600000
  654901 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,16n,121p,611b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,16n,121p,611b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/te
 xlive/2026/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb><c:/texliv
 e/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2026/te
@@ -1022,10 +1060,10 @@ fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2026/texmf-dist/fonts/type
 m-super/sfsl1000.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sf
 ti1000.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb
 >
-Output written on fisica1.pdf (9 pages, 484656 bytes).
+Output written on fisica1.pdf (11 pages, 506170 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 223 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

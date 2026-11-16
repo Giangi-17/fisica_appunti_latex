@@ -145,7 +145,7 @@ La meccanica studia il moto dei corpi e le cause che lo determinano, si usa comu
 \end{itemize}
 \section{Cinematica}
 Per poter trattare la cinematica esamineremo come caso di studio il \textbf{punto materiale} ovvero un oggetto di dimensioni e materiale trascurabile, in seguito vedremo anche i sistemi dei punti materiali; questi sono dei \textbf{modelli} ovvero delle schematizzazioni della realtà che ci permettono di descrivere più facilmente i fenomeni osservabili.\\
-\subsection{sistema di riferimento, moto rettilineo uniforme e moto uniformemente accellerato}
+\subsection{sistema di riferimento e moti}
  Come detto prima è molto importante definire il sistema di riferimento poichè a seconda di questo un corpo si può trovare in stato di quiete o di moto. Per lo studio del moto di un punto materiale a ogni posizione assunta dal punto va associata un  \textit{ascissa temporale } fissando così l'istante dal quale iniziamo a misurare e così si può determinare gli istanti successivi e quelli che li precedono. \\
 Il moto di un punto materiale nello spazio  è determinato quando è possibile conoscere la posizione ad ogni istante sapendo la dipendenza delle sue coordinate rispetto al tempo.
 \noindent
@@ -240,7 +240,15 @@ x(t)=x_0 + V_0(t-t_0)+ \frac{1}{2}a_0(t-t_0)^2\\
 
 \end{cases}
 \end{equation}
-
+Ovviamente possiamo definire la velocità in un nuovo modo a partire dall'accellerazione:
+\begin{tcolorbox}
+\begin{definizione}[velocità come integrale dell'accellerazione]
+\[
+  y = \int_{0}^{t} v \, dt = y_0 + v_0 t + \frac{1}{2} a_t t^2.
+\]
+\end{definizione}
+\end{tcolorbox}
+\newpage
 nella figura qui sotto sono rappresentati tre grafici che rappresentano in ordine lo spostamento, la velocità e l'accelerazione.\\
 
 \begin{figure}[H]
@@ -256,6 +264,69 @@ Supponiamo di avere $t_1 = 3,4\text{ s}$ e $V(t_1) = 100\text{ km/h}$ (che sono 
 \]
 \end{esempio}
 Definiamo ora un accellerazione molto conosciuta, l'\textbf{accellerazione gravitazionale} definita come vettore verso il basso rispetto a un sistema di coordinate in cui l'y va verso l'alto  essa ha misura definita nel seguente modo: \[  \vec{g} = -9{,}81 \, \text{m/s}^2 \, \hat{y}\]
+
+Quindi per un oggetto in caduta perpendicolare all'asse delle x possiamo definire un sistema di equazioni rappresentante il moto nel seguente modo:
+\begin{equation*}
+\begin{cases}
+y(t)=y_0+ V_0t -\frac{1}{2}gt^2\\
+V_y=V_0-gt
+\end{cases}
+\end{equation*}
+
+Questa equazione è molto utile se si vuole trovare il momento in cui  l'altezza è massima per cui la direzione della velocità cambia direzione e il punto/oggetto inizia a tornare verso il basso. Per trovarla occore eguagliare la seconda equazione a 0, infatti nel momento che la velocità cambia direzione implica che questa deve essere uguale alla velocità creata dall'accellerazione gravitazionale in quel momento.\\
+
+\subsubsection{moto circolare uniforme}
+\begin{definizione}[radiante]
+unità di misura degli angoli piani nel SI, è definito a partire dall’angolo al centro di una circonferenza; è l’ampiezza di quell’angolo al centro che sottende su tale circonferenza un arco di lunghezza uguale al suo raggio. per calcolare quanto un angolo in gradi vale in radianti si può utilizzare la seguente proporzione:
+\[
+  g : 180^\circ = x : \pi
+\] un radiante vale all'incirca 57,3 gradi.
+\end{definizione}
+il moto circolare uniforme è così definito poiche avviene su una traiettoria circolare come  mostrato in figura.\\
+\begin{minipage}{0.48\textwidth}
+Si definisce la velocità scalare come la derivata prima della lunghezza dell'arco percorso rispetto al tempo. La velocità sarà diretta lungo la tangente nel verso del moto , e cambia direzione ad ogni istante.
+definiamo ora la velocità angolare $\omega$, esaminiamo d'apprima la seguente proporzionalità :
+sia  L(t)=R$\varphi$ con R il raggio della circonferenza allora si ha anche  che $\dot{L}(t) = R \dot{\varphi}(t)$
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.4\textwidth]{immagini/motocircolareuni} 
+    \label{figura_5_moto_circolare}
+\end{minipage}
+che ci permette di ottenere  la seguente uguaglianza $\dot{\varphi}(t) = \frac{d\varphi(t)}{dt} = \omega$
+$\omega $ sarà proprio la velocità angolare scalare  e si misura in \textit{radianti} al secondo, risulta elementare capire che la velocità angolare ha intensità pari alla derivata temporale dell'angolo descritto dal punto. Il vettore della velocità angolare avrà direzione  lungo l'asse di rotazione e  il verso si determina con la regola della mano destra.\\
+Il sistema di equazioni che lo descrive è il seguente:
+\[
+\begin{cases}
+  x(t) = R \cos(\omega t) \\
+  y(t) = R \sin(\omega t)
+\end{cases}
+\]
+Il moto è periodico possiamo definire quindi le seguenti tre formule:\\
+\begin{itemize}
+\item$ \omega=\frac{v}{R} \quad (velocità angolare)$
+\item $T=\frac{2\pi R}{v} \quad (periodo)$
+\item  $\omega= \frac{2\pi}{T}$
+\end{itemize}
+
+L'accellerazione nel moto circolare uniforme è definita come il limite per $\delta t $ che va 0 per$ \delta$ v fratto $\delta t  \longrightarrow  a=  \lim_{\Delta t \to 0}\frac{\delta v}{\delta t} $\\
+si dice quindi che l'accellerazione è normale a v(t) ed è diretta in ogni punto verso  il centro della traiettoria stessa, l'accellerazione può essere scomposta in due componenti una tangente alla curva e l'altra che punta verso il centro , quella verso il centro è chiamata centripeta/normale.
+\subsubsection{moto diverso}
+Esaminiamo un moto che ha come traiettoria una linea qualsiasi allora per scomporre l'accellerazione in un punto è utile usare un cerchio osculatore
+\begin{definizione}[cerchio osculatore]
+si definisce come cerchio osculatoe  un cerchio tangente a un punto della traiettoria e che ha il centro sulla normale, difatto la normale sarà il raggio del cerchio.
+
+\end{definizione}
+%%aggiungi la foto del tablet
+\subsection[Leggi di Newton]
+Le leggi di Newton o anche detti principi della dinamica sono  tre leggi fondamentali della fisica che descrivono il legame tra il moto di un corpo e le forze che agiscono su esso
+\begin{itemize}
+\item \textbf{legge d'Inerzia} $\longrightarrow$ Un corpo rimane nello stato di quiete o di moto rettilineo uniforme a meno che non intervenga una forza esterna attua a modificarne lo stato 
+\item \textbf{principio di conservazione} $\longrightarrow$ l'accellerazione di un corpo è direttamente proporzionale alla forza netta applicata e inversamente proporzionale alla sua massa  \textbf{$\vec{F}=m\frac{d\vec{v}}{dt}$}
+\item \textbf{Principio di azione e reazione} $\longrightarrow$ se un corpo A esercita una forza su un corpo B allora il corpo B esercita una forza uguale e contraria , [F]=[ml$t^-2$]=N con N letto come Newton
+\end{itemize}
+
+\subsection{Forze d'attrito}
 
 
 \end{document}
